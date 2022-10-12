@@ -1,0 +1,149 @@
+/* ------Form-input--- */
+
+form {
+    width: 700px;
+    margin: 10px auto;
+    padding: 10px;
+    height: auto; 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 10px; 
+    /* box-shadow: 0 0 10px grey ; */
+
+}
+
+form div {
+    margin: 15px;
+    margin-left: 50px;
+}
+
+form p {
+    font-size: 20px;
+    text-align:center;
+    font-weight: bold;
+    
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+}
+select {
+    border: 1px solid #dbdbdb;
+    background-color: #f3f3f3;
+    width: 94%;
+    resize: none ;
+    padding: 10px ;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+input, textarea {
+    border: 1px solid #dbdbdb;
+    background-color: #f3f3f3;
+    width: 90%;
+    resize: none ;
+    padding: 10px ;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.btn-submit {
+    background-color: rgb(36, 39, 39);
+    color:#dbdbdb;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 95%;
+    height: 50px;
+}
+
+.btn-contact {
+    background-color: rgb(36, 39, 39);
+    color:#dbdbdb;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: blueviolet;
+
+}
+
+/* -------------------------------------navigation-------------------- */
+
+* {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+nav {
+
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-around;
+    height: 70px;
+    color:black;
+}
+nav .nav-left img {
+    width: 75px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 100px;
+    
+}
+nav ul {
+    display:inline-flex ;
+    list-style: none;
+    width: 30%;
+    justify-content:space-around ;
+    align-items: center;
+    margin-right: auto;
+    
+}
+
+nav .nav-right {
+    margin-right: 100px;
+}
+
+
+
+/* -----------------------contact----? */
+
+.container{
+    display: flex;
+    border-radius:10;
+    width: 700px;
+    height: auto; 
+    margin: 35px auto; 
+    background-color: rgb(255, 255, 255); 
+    padding:30px 100px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 20px grey ;
+
+}
+#left {
+    flex:50;
+    font-size: 15px;
+    text-align: justify;
+    padding:20px; 
+    margin-right:15px;  
+}
+#right img{
+    flex: 50%;
+    width: 250px;
+    height: 370px;
+    border-radius:10px 10px 0px 0px;
+    margin-left: 20px;
+    
+}
+
