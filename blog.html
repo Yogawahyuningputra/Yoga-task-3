@@ -1,0 +1,106 @@
+<html>
+    <!DOCTYPE html>
+    <head>
+        <title>Task-3</title>
+        <link rel="stylesheet" href="blog.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+            <div id="nav-left" class="nav-left">
+            <a href="index.html"><img src="https://dumbways.id/assets/images/brandred.png" alt="Dumbways.id"></a>
+            </div>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html">MY PROJECT</a></li>
+                    
+                </ul>
+            
+            <div id="nav-right" class="nav-right">
+                <a href="contact.html"><button class="btn-contact">Contact Me</button></a>
+            </div>
+        </nav>
+        </header>  
+        
+        <div class="blog">
+            <div class="blog-form">
+                <div class="form-container">
+                    <form onsubmit="addBlog(event); this.reset(); return false">
+                        <h1>Create My Project</h1>
+                        <div>
+                            <label for="input-project">Project Name</label>
+                            <input id="input-project">
+                        </div>
+                        <div>
+                            <label for="input-star-date">Star Date</label>
+                            <input id="input-star-date">
+                            <label for="input-end-date">End Date</label>
+                            <input id="input-end-date">
+                        </div> 
+                        
+                        <div>
+                            <label for="input-content">Description</label>
+                            <textarea id="input-content"></textarea>
+                        </div>
+                        <p>Technology</p>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="checkbox1" value="nextjs">
+                            <label for="checkbox1" class="checkbox"> Next Js</label><br>
+                            <input type="checkbox" id="checkbox2" value="nodejs">
+                            <label for="checkbox2" class="checkbox">Node Js</label><br>
+                            <input type="checkbox" id="checkbox3" value="reactjs">
+                            <label for="checkbox3" class="checkbox"> React Js</label>
+                            <input type="checkbox" id="checkbox4" value="typescript">
+                            <label for="checkbox4" class="checkbox"> TypeScript</label><br><br><br>
+                        </div>
+                        <div>
+                            <label>Upload Image</label>
+                            <div class="input-image-content">
+                                <label for="input-blog-image">
+                                    <input type="file" id="input-blog-image" img src="assets/img/file.png" alt="file" />
+                                </label>
+                                
+                            </div>
+                        </div>
+                       <div>
+                            <button class="btn-project">Post Project</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr />
+            <div id="contents" class="blog-list">
+                <div class="blog-list-item">
+                    <div class="blog-image">
+                        <img src="assets/img/blog-img-detail.png">
+                    </div>
+                    <div class="blog-content">
+                        <div class="btn-group">
+                            <button class="btn-edit">Edit Post</button>
+                            <button class="btn-post">Post Blog</button>
+                        </div>
+                        <h1>
+                            <a href="blog-detail.html" target="_blank">
+                                Pasar Coding di Indonesia Dinilai Masih Menjanjikan
+                            </a>
+                        </h1>
+                        <div class="detail-blog-content">
+                            <br>
+                            12 Jul 2021 22:30 WIB | Ichsan Emrald Alamsyah
+                        </div>
+                        <p>
+                            Ketimpangan sumber daya manusia (SDM) di sektor digital masih
+                            menjadi isu yang belum terpecahkan. Berdasarkan penelitian
+                            ManpowerGroup, ketimpangan SDM global, termasuk Indonesia,
+                            meningkat dua kali lipat dalam satu dekade terakhir. Lorem ipsum,
+                            dolor sit amet consectetur adipisicing elit. Quam, molestiae
+                            numquam! Deleniti maiores expedita eaque deserunt quaerat! Dicta,
+                            eligendi debitis?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="blog.js"></script>
+</html>
