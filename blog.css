@@ -68,6 +68,22 @@ div .input-image-content img {
 .input-blog-image {
     width: 20px;
 }
+div .input-date {
+    display: flex;    
+    /* background-color: aquamarine; */
+    padding: 10px;
+}
+div .input-date label{
+    /* background-color: rgb(193, 239, 29); */
+    padding: 10px;
+    column-width: 110px;
+    
+    
+}
+#input-star-date {
+    
+}
+
 
 .blog-form .form-container h1 {
     text-align: center;
@@ -77,6 +93,7 @@ div .input-image-content img {
 .blog-form form label {
     font-size: 18px;
     font-weight: 300px;
+
 }
 p {
     font-size: 18px;
@@ -101,6 +118,7 @@ p {
     display: flex;
     justify-content: center;
     width: 70%;
+    
        
 }
 .form-checkbox .checkbox{
@@ -109,6 +127,7 @@ p {
     font-size: 15px;
     font-weight: 500;
     margin-right: 20px 10px;
+    
 
 }
 
@@ -139,8 +158,36 @@ p {
 
 .blog-list .blog-list-item .blog-image img {
     height: 300px;
+    width: 100%;
     object-fit: cover;
 }
+
+.blog .blog-list .blog-list-item .blog-content {
+    padding-left: 20px;
+    flex: 2;
+}
+
+.blog .blog-list h1 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.blog .blog-list .detail-blog-content {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.blog .blog-list .blog-list-item p {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+
+/* ====== */
 
 .btn-project {
     
@@ -157,15 +204,24 @@ p {
         
     
 }
-.btn-edit, .btn-post {
-    background-color: rgb(36, 39, 39);
+
+.blog .blog-list .blog-content .btn-group {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.btn-group .btn-edit, .btn-post {    
+        background-color: rgb(36, 39, 39);
         color:#dbdbdb;
         padding: 6px 20px;
         border: none;
         border-radius: 10px;
         margin-top: 15px;
+        margin-bottom: 20px;height: 25px;
         font-size: 15px;
         cursor: pointer;
         width: 15%;
-        height: 25px;
+        height: 30px;
+        text-align: center;
+        
+
 }

@@ -31,11 +31,11 @@
                             <label for="input-project">Project Name</label>
                             <input id="input-project">
                         </div>
-                        <div>
-                            <label for="input-star-date">Star Date</label>
-                            <input id="input-star-date">
-                            <label for="input-end-date">End Date</label>
-                            <input id="input-end-date">
+                        <div class="input-date">
+                            <label class=" input-star-date" for="input-star-date">Star Date</label>
+                            <input type="date"  disabled id="input-star-date">
+                            <label class=" input-end-date" for="input-end-date">End Date</label>
+                            <input type="date" disabled id="input-end-date">
                         </div> 
                         
                         <div>
@@ -76,8 +76,8 @@
                     </div>
                     <div class="blog-content">
                         <div class="btn-group">
-                            <button class="btn-edit">Edit Post</button>
-                            <button class="btn-post">Post Blog</button>
+                            <button class="btn-edit">Edit</button>
+                            <button class="btn-post">Delete</button>
                         </div>
                         <h1>
                             <a href="blog-detail.html" target="_blank">
